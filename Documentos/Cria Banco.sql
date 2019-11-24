@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`Usuario` (
   `email` VARCHAR(45) NOT NULL,
   `senha` VARCHAR(45) NOT NULL,
   `data_nascimento` DATE NOT NULL,
-  `saldo` INT NULL,
+  `saldo` LONG NULL,
   `cidade` VARCHAR(45) NULL,
   `estado` VARCHAR(45) NULL,
   `pais` VARCHAR(45)  NULL,
